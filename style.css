@@ -30,7 +30,7 @@ body{
     justify-content: space-between;
 }
 
-.container .navbar-brand {
+.container .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     font-weight: bolder;
@@ -38,9 +38,6 @@ body{
     color: rgb(34, 199, 34);
 }
 
-/* .navbar-nav {
-    display: inline;
-} */
 
 .navbar-nav a {
     text-transform: capitalize;
@@ -69,10 +66,11 @@ body{
     padding-bottom: 1rem;
 }
 
-.btn button {
+.btn button, a {
     padding: 0.5rem 1rem;
     color: #222;
     background-color: white;
+    text-decoration: none;
 }
 
 section .more {
@@ -81,25 +79,6 @@ section .more {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-/* h3 {
-    font-weight: 600;
-    margin: 1rem 0.5rem 0rem 1.5rem ;
-    border-bottom: 0.1rem solid #000;
-    padding-bottom: 0.3rem;
-}
-
-.location {
-    font-weight: 300;
-    font-size: 1rem;
-} */
-
-
-
-
-
-
-
 
 .resume {
     width: 60vw;
